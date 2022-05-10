@@ -1,4 +1,6 @@
 window.addEventListener("DOMContentLoaded", async () => {
+    let input = document.querySelector('#text');
+    input.value = ''
     let text = "Happy Birthday Garnet"
     let i  = 0;
     let repeat =  () => {
@@ -8,7 +10,6 @@ window.addEventListener("DOMContentLoaded", async () => {
                 cancelable: true,
             });
               
-            let input = document.querySelector('#text');
             input.value += text.charAt(i)
             input.dispatchEvent(event)
             i++;
