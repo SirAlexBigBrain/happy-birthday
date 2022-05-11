@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", async () => {
     let input = document.querySelector('#text');
     input.value = ''
-    let text = "Happy Birthday Garnet"
+    let text = "Happy Birthday Alex!"
     let i  = 0;
     let repeat =  () => {
         if (i < text.length) {
